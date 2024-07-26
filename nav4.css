@@ -1,0 +1,35 @@
+@import url();
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family :'Montserrat', sans-serif;
+}
+.header{
+    height:95vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/header-image.jpg');     //at the place of 0.5 by default value is one
+    background-position: center;     //image fixed from top
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    border: 2px solid white;
+}
+.header .logo,
+.header .navbar a{
+    color:white;
+}
+.header.navbar.logo{
+    float: left;
+}
+.header.navbar.nav-items{
+    float: right;
+}
+.navbar::after{
+    content:'';
+    display: block;
+    clear:both;
+}

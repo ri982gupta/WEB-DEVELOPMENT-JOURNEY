@@ -1,0 +1,98 @@
+/* ########## CONTACT PAGE STYLING ######### */
+.contact-form{
+    padding:5 rem 0;
+    background:#f7f7f7;
+}
+
+.form-wrapper::after{
+    content:' ';
+    display:block;
+    clear:both;
+}
+
+.form-wrapper.company-address{
+    height:760px;
+    background:#fff;
+    border:4px dotted green;
+    width:49%;
+    float:left;
+    padding:1 rem;
+}
+
+.form-wrapper .company-address i{
+    display:inline-block;
+    margin-right:1 rem;
+}
+
+.form-wrapper .company-address h2{
+    display:inline-block;
+    text-transform: uppercase;
+}
+
+.form-wrapper .address-group{
+    margin-bottom:3 rem;
+}
+
+.form-wrapper .company-address img{
+    max-width: 90%;
+    min-width: 40 rem;
+    object-fit: cover;          //expect ratio same , increase or decrease
+    object-position: right;                 //fixed from right
+}
+
+
+/* ######## FORM STYLING ############ */
+
+.form-wrapper.form{
+    height:760px;
+    font-size:1.6 rem;
+    background:#fff;
+    border:4px dotted black;
+    width:49%;
+    float:right;
+    padding:1 rem;
+}
+
+.form h1::after{
+    content:' ';
+    display:block;
+    border:3px solid #ee4758;
+    width:100%;
+}
+
+.form-wrapper .form label{
+    display:block;
+}
+
+.form-wrapper .form input{
+    padding:0.5 rem;
+    width:100%;
+}
+
+.form-wrapper .form .form-group{
+    margin-bottom:1.2 rem;
+}
+
+.form-wrapper .form label::after{
+    content:'*';
+    color:#e63946;
+}
+
+.form-wrapper .form textarea{
+    width:100%;
+    height:300px;
+    padding:1 rem;
+}
+
+.form-btn{
+    display: block;
+    margin: 0 auto;
+    padding:0.5em 3em;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background:#e63946;
+    color:#fff;
+    outline:none;
+    border:none;
+    cursor:pointer;
+}

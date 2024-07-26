@@ -1,0 +1,17 @@
+/* ########## CONTACT PAGE STYLING ######### */
+.contact-form{
+    padding:5 rem 0;
+    font-size: 2 rem;
+}
+
+.form-wrapper{
+    border:10px solid red;
+}
+
+.company-address{
+    border:4px solid green;
+}
+
+.form{
+    border:4px dotted black;
+}

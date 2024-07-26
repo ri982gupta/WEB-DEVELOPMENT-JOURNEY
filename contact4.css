@@ -1,0 +1,36 @@
+/* ########## CONTACT PAGE STYLING ######### */
+.contact-form{
+    padding:5 rem 0;
+    background:#f7f7f7;
+}
+
+.form-wrapper::after{
+    content:' ';
+    display:block;
+    clear:both;
+}
+
+.form-wrapper.company-address{
+    background:#fff;
+    border:4px dotted green;
+    width:49%;
+    float:left;
+    padding:1 rem;
+}
+
+.form-wrapper .company-address i{
+    display:inline-block;
+    margin-right:1 rem;
+}
+
+.form-wrapper .company-address h2{
+    display:inline-block;
+    text-transform: uppercase;
+}
+
+.form-wrapper.form{
+    background:#fff;
+    border:4px dotted black;
+    width:49%;
+    float:right;
+}
